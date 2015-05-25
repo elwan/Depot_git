@@ -1,4 +1,7 @@
-Configuration a mettre sur les deux switchs cisco 
+Tutorial cisco 
+
+Configuration a mettre sur les deux switchs cisco des deux cotes
+ 
 vlan database
 vlan 10 
 exit
