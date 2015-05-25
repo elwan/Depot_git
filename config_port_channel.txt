@@ -1,0 +1,22 @@
+vlan database
+vlan 10 
+exit
+cont t
+int f1/0
+switchport access vlan 10
+exit
+int range f1/14 - 15 
+shutdown
+channel-group 1 mode on 
+exit
+int po1
+switchport trunk encapsulation dot1q
+switchport mode trunk
+int range f1/14 -15 
+no shutdown
+
+show etherchannel summary
+show interfaces trunk 
+show interfaces po1 status
+show interface f1/0 status
+
