@@ -1,1 +1,36 @@
 tutorial git 
+
+  500  git config --global user.name "elwan7"
+  501  git config --global user.email elwan7@gmail.com
+  
+  503  mdkir Depot_git
+  504  mkdir Depot_git
+  505  cd Depot_git/
+  506  git init
+  
+  508  git add config_port_channel.txt
+  509  git add README
+  510  git add README
+  511  git commit -m 'config channel port cisco'
+  512  git status
+  
+  514  nano config_port_channel.txt
+  515  git status
+  516  git add config_port_channel.txt
+  517  git status
+  518  git commit -m " configure cisco port channel"
+  519  git remote add origin https://github.com/elwan/Depot_git.git
+  520  git push -u origin master
+  521  nano config_port_channel.txt
+  522  git status
+  523  git add config_port_channel.txt
+  524  git push -u origin master
+  
+  526  git add config_port_channel.txt
+  527  git push -u origin master
+  528  git commit -m "configure cisco port channel"
+  529  git push -u origin master
+  530  nano tuto_git
+  531  git add tuto_git
+  532  git commit -m "tuto git"
+  533  git push -u origin master
