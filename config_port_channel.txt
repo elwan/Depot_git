@@ -1,3 +1,4 @@
+Configuration a mettre sur les deux switchs cisco 
 vlan database
 vlan 10 
 exit
