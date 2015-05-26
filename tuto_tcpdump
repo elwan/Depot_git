@@ -1,0 +1,57 @@
+Affichage standard:
+
+#tcpdump
+
+Affichage verbeux (verbose):
+
+#tcpdump -v
+
+Interfaces réseaux disponibles pour la capture:
+
+#tcpdump -D
+
+Affichage des adresses numériques plutôt que des adresses symboliques (DNS):
+
+#tcpdump -n
+
+Affichage rapide:
+
+#tcpdump -q
+
+Capture du traffic d'une interface particulière:
+
+tcpdump -i eth0
+ Capture du trafic UDP:
+
+#tcpdump udp
+ Capture du trafic du port TCP 80:
+
+#tcpdump port http
+ Capture du trafic à partir d'un fichier stocké dans un fichier:
+
+#tcpdump -F file_name
+Création d'un fichier où le filtre est configuré, ici le port TCP 80. 
+
+#vim file_name
+port 80
+Arrêter la capture après 20 paquets: 
+
+#tcpdump -c 20
+ Envoi du résultat dans un fichier à la place de directement à l'écran: 
+
+#tcpdump -w capture.log
+
+Lecture d'un fichier de capture:
+
+#tcpdump -r capture.log
+
+Affichage des paquets ayant "www.openmaniak.com" comme adresse source ou destination:
+
+#tcpdump host www.openmaniak.com
+ Affichage des paquets FTP venant de 192.168.1.100 et allant vers 192.168.1.2: 
+
+#tcpdump src 192.168.1.100 and dst 192.168.1.2 and port ftp
+ Affichage du contenu des paquets: 
+
+#tcpdump -A
+
