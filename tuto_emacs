@@ -1,0 +1,5 @@
+M-x packages-list-packages
+C-s django-snippets
+mark the package for deletion by typing D
+execute by typing x
+
