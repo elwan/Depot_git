@@ -1,5 +1,47 @@
-M-x packages-list-packages
-C-s django-snippets
-mark the package for deletion by typing D
-execute by typing x
+tutoriel emacs
+
+changer de buffers
+C-x b
+
+avoir la liste de tous les bufffers
+C-x C-b
+
+Sauvegarder un buffer
+C-x C-s
+
+
+Afficher le numero des lignes sur la barre verticale
+
+M-x linum-mode
+
+
+ouvrir un nouveau fichier
+
+C-x C-f
+
+Supprimer le buffer courant (n'affecte pas le fichier)
+
+C-x k
+
+Changer de buffer
+
+C-x b + complétion avec tab
+
+Changer de fenêtre
+
+C-x o
+
+Couper la fenêtre courante horizontalement
+
+C-x 2
+
+Couper la fenêtre courante verticalement
+
+C-x 3
+
+Revenir à une seule fenêtre
+
+C-x 1
+
+
 
